@@ -25,8 +25,8 @@
     --ring: 0 0% 3.9%;
     --radius: 1rem;
 
-    --navbar-start: 0 0% 0%;
-    --navbar-end: 0 0% 6%;
+    --navbar-start: 0 100% 100%;
+    --navbar-end: 0 0% 94%;
   }
 
   .dark {

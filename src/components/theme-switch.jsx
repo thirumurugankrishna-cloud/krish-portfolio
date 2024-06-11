@@ -36,7 +36,7 @@ export function ThemeSwitch() {
     <div className=" flex gap-2 items-center text-foreground">
       <Sun size={20} />
       <Switch
-        checked={window === undefined || theme === "dark"}
+        checked={typeof window === "undefined" || theme === "dark"}
         onCheckedChange={() =>
           setTheme(theme === "dark" || theme === "system" ? "light" : "dark")
         }

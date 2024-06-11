@@ -10,13 +10,19 @@ export default function Home() {
       <Navbar />
       <section className=" h-[calc(100vh-200px)] w-full flex flex-col items-center justify-between py-[90px] ">
         <div className=" w-full flex items-center flex-col">
-          <div className=" group text-[92px] font-medium leading-[111px] tracking-[-3px] hero">
-            <h3>
+          <div className="  text-[92px] font-medium leading-[111px] tracking-[-3px] hero">
+            <h3 className="  cursor-default">
               I craft pr
-              <span className=" italic group-hover:not-italic">o</span>ducts,
+              <span className=" italic hover:not-italic relative -left-2 hover:left-0">
+                o
+              </span>
+              ducts,
             </h3>
-            <h3>
-              interacti<span className=" group-hover:not-italic italic">o</span>
+            <h3 className="">
+              interacti
+              <span className=" italic hover:not-italic relative -left-2 hover:left-0">
+                o
+              </span>
               ns & <span className="italic font-normal stories">stories.</span>
             </h3>
           </div>
@@ -25,10 +31,12 @@ export default function Home() {
             <p className=" text-foreground/50">Prev. Design @ IIT Guwahati</p>
           </div>
         </div>
-        <p className=" ">
+        <p className="animate-bounce ">
           <Image src={Arrow} />
         </p>
       </section>
+
+      <div className=" h-screen w-full bg-red-200"></div>
 
       {/* <h1 className=" text-foreground font-semibold text-5xl">
         Krishna, the bully

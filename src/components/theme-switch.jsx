@@ -7,17 +7,10 @@ import { Switch } from "@/components/ui/switch";
 
 export function ThemeSwitch() {
   const { theme, setTheme } = useTheme();
-  const [checked, setChecked] = React.useState(false);
 
   React.useEffect(() => {
-    if (theme === "dark") {
-      setChecked(true);
-    } else {
-      setChecked(false);
-    }
-  }, [theme]);
-
-  // if (!theme) return;
+    setTheme("dark");
+  }, []);
 
   return (
     // <DropdownMenu>
@@ -43,8 +36,10 @@ export function ThemeSwitch() {
     <div className=" flex gap-2 items-center text-foreground">
       <Sun size={20} />
       <Switch
-        checked={checked}
-        onCheckedChange={() => setTheme(theme === "dark" ? "light" : "dark")}
+        checked={window === undefined || theme === "dark"}
+        onCheckedChange={() =>
+          setTheme(theme === "dark" || theme === "system" ? "light" : "dark")
+        }
       />
       <Moon size={20} />
     </div>

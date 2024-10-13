@@ -37,9 +37,7 @@ export function ThemeSwitch() {
       <Sun size={20} />
       <Switch
         checked={typeof window === "undefined" || theme === "dark"}
-        onCheckedChange={() =>
-          setTheme(theme === "dark" || theme === "system" ? "light" : "dark")
-        }
+        onCheckedChange={() => setTheme(theme === "dark" ? "light" : "dark")}
       />
       <Moon size={20} />
     </div>

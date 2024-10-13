@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className=" w-full h-[200px] bg-gradient-to-b from-navbar-start/70 to-navbar-end/0 px-[73px] flex items-center justify-between pb-[46px] sticky">
+    <nav className=" w-full h-[20vh] bg-gradient-to-b from-navbar-start/70 to-navbar-end/0 px-[73px] flex items-center justify-between pb-[46px] sticky">
       <div className=" flex gap-[115px] ">
         <div className=" flex flex-col">
           <h2 className=" text-foreground text-xl leading-6 font-medium">

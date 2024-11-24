@@ -12,7 +12,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center bg-background">
+    <main className="flex min-h-screen flex-col items-center">
       <Navbar />
       <section className=" h-[80vh] w-full flex flex-col items-center justify-between py-[90px] ">
         <div className=" w-full flex items-center flex-col">
@@ -42,7 +42,12 @@ export default function Home() {
         </p>
       </section>
 
-      <div className=" w-full bg-grid-pattern flex flex-col h-[1176px] overflow-auto">
+      <div className=" w-full flex flex-col bg-grid-pattern  ">
+        {/* <div className=" sticky top-0  left-0 right-0 -z-10"> */}
+        {/* <div className="sticky top-0 left-0 right-0 z-10 ">
+          <div className="absolute bg-grid-pattern w-full h-screen"></div>
+        </div> */}
+        {/* </div> */}
         <div className=" h-[155px] flex items-center justify-center">
           <h2 className="text-[128px] text-center">SELECTED PROJECTS</h2>
         </div>

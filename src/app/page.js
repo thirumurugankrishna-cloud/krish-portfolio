@@ -42,12 +42,10 @@ export default function Home() {
         </p>
       </section>
 
-      <div className=" w-full flex flex-col bg-grid-pattern  ">
-        {/* <div className=" sticky top-0  left-0 right-0 -z-10"> */}
-        {/* <div className="sticky top-0 left-0 right-0 z-10 ">
-          <div className="absolute bg-grid-pattern w-full h-screen"></div>
-        </div> */}
-        {/* </div> */}
+      <div className=" w-full flex flex-col relative  ">
+        <div className=" sticky top-0 left-0 right-0 -z-10">
+          <div className=" absolute h-[110vh] left-0 right-0 bg-grid-pattern top-0  "></div>
+        </div>
         <div className=" h-[155px] flex items-center justify-center">
           <h2 className="text-[128px] text-center">SELECTED PROJECTS</h2>
         </div>
@@ -111,31 +109,30 @@ export default function Home() {
             alt="Timely project preview"
           />
         </div>
+      </div>
+      <div className=" flex items-center w-full justify-center mt-[296px] gap-[138px]">
+        <Image
+          src={"/project-img/timely.png"}
+          height={1030}
+          width={735}
+          alt="Timely project preview"
+        />
 
-        <div className=" flex items-center w-full justify-center mt-[296px] gap-[138px]">
-          <Image
-            src={"/project-img/timely.png"}
-            height={1030}
-            width={735}
-            alt="Timely project preview"
-          />
-
-          <div className=" w-[598px] flex gap-[70px]">
-            <div className=" w-[5px] bg-white border relative ml-[9px] ">
-              <div className=" w-[45px] h-[30px] bg-white"></div>
-              <div className=" project-circle rounded-full bg-white absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2"></div>
-            </div>
-            <div>
-              <h3 className=" text-2xl font-medium">{"Timely"}</h3>
-              <p className=" mt-8 text-2xl text-secondary-foreground">
-                Timely is an productivity app designed to help collage students
-                bridge their personal and academic goals, by increasing
-                accountability of their activities towards their goals.
-              </p>
-              <p className=" mt-[190px] text-2xl text-secondary-foreground ">
-                #interaction design #visual design #app design #research
-              </p>
-            </div>
+        <div className=" w-[598px] flex gap-[70px]">
+          <div className=" w-[5px] bg-white border relative ml-[9px] ">
+            <div className=" w-[45px] h-[30px] bg-white"></div>
+            <div className=" project-circle rounded-full bg-white absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2"></div>
+          </div>
+          <div>
+            <h3 className=" text-2xl font-medium">{"Timely"}</h3>
+            <p className=" mt-8 text-2xl text-secondary-foreground">
+              Timely is an productivity app designed to help collage students
+              bridge their personal and academic goals, by increasing
+              accountability of their activities towards their goals.
+            </p>
+            <p className=" mt-[190px] text-2xl text-secondary-foreground ">
+              #interaction design #visual design #app design #research
+            </p>
           </div>
         </div>
       </div>

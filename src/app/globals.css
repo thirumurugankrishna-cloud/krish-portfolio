@@ -89,5 +89,5 @@
 
 .bg-grid-pattern {
   background-image: url("/bg-grid.svg");
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }

@@ -53,10 +53,9 @@ const ProjectsSection = () => {
           <div>
             <h3 className=" text-2xl font-medium">Design System</h3>
             <p className=" mt-8 text-2xl text-secondary-foreground">
-              Contributed to ZEE's design system team, focusing on essential
-              components and ensuring consistency across all products, while
-              bridging the gap between designers and developers. Collaborated on
-              developing design tokens, components, and a visual library.
+              {
+                "Contributed to ZEE's design system team, focusing on essential components and ensuring consistency across all products, while bridging the gap between designers and developers. Collaborated on developing design tokens, components, and a visual library."
+              }
             </p>
             <p className=" mt-[190px] text-2xl text-secondary-foreground">
               #design system #visual design #motion design #copywriting

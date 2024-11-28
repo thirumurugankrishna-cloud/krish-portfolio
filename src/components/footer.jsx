@@ -14,15 +14,15 @@ const Footer = () => {
       </div>
       <div className=" flex gap-[88px]">
         <div className=" space-y-8">
-          <h4 className=" text-[#808080]">NAVIGATION</h4>
-          <p className=" text-2xl ">Work</p>
-          <p className=" text-2xl ">About</p>
+          <h4 className=" text-sm 2xl:text-base text-[#808080]">NAVIGATION</h4>
+          <p className=" text-lg 2xl:text-2xl ">Work</p>
+          <p className=" text-lg 2xl:text-2xl ">About</p>
         </div>
         <div className=" space-y-8">
-          <h4 className=" text-[#808080]">PROJECTS</h4>
-          <p className=" text-2xl ">Immersive Education</p>
-          <p className=" text-2xl ">Clootrack</p>
-          <p className=" text-2xl ">ZEE5 Design System</p>
+          <h4 className=" text-sm 2xl:text-base text-[#808080]">PROJECTS</h4>
+          <p className=" text-lg 2xl:text-2xl ">Immersive Education</p>
+          <p className=" text-lg 2xl:text-2xl ">Clootrack</p>
+          <p className=" text-lg 2xl:text-2xl ">ZEE5 Design System</p>
         </div>
       </div>
     </footer>

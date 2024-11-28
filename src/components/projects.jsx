@@ -5,7 +5,7 @@ const ProjectsSection = () => {
   return (
     <section className=" h-[350vh] w-full flex flex-col items-center justify-between mb-[10vh] gap-[20vh] ">
       <div className=" border-y w-full border-white py-6 overflow-clip ">
-        <h2 className=" text-[96px]  font-medium text-[#F2F2F2]  leading-none text-center tracking-tight whitespace-nowrap projects-heading">
+        <h2 className=" text-[64px] 2xl:text-[96px]  font-medium text-[#F2F2F2]  leading-none text-center tracking-tight whitespace-nowrap projects-heading">
           SELECTED PROJECTS - SELECTED PROJECTS - SELECTED PROJECTS - SELECTED
           PROJECTS
         </h2>
@@ -19,20 +19,20 @@ const ProjectsSection = () => {
           alt="Timely project preview"
           className=" h-full w-auto"
         />
-        <div className=" flex w-1/4 gap-[70px] h-4/5">
+        <div className=" flex w-1/4 gap-[70px] h-4/5 2xl:h-3/5">
           <div className=" relative w-[5px] rounded-b-full   ">
             <div className=" absolute top-0 left-0 h-full bg-white w-[5px] project-line"></div>
-            <div className="  h-[30px] w-[45px] bg-white"></div>
+            <div className="  h-[30px] w-[45px] bg-white project-rect"></div>
             <div className="  project-circle rounded-full bg-white absolute bottom-0 left-1/2 -translate-x-1/2 "></div>
           </div>
 
           <div>
             <div className=" flex justify-between flex-col h-full">
-              <div className=" space-y-2">
-                <h3 className=" text-2xl font-medium">
+              <div className=" space-y-2 w-full  overflow-clip">
+                <h3 className=" text-2xl 2xl:text-3xl font-medium  project-text">
                   {"Immersive Interfaces for Children's Education"}
                 </h3>
-                <p className=" mt-8 text-2xl text-secondary-foreground">
+                <p className=" mt-8 text-secondary-foreground 2xl:text-xl project-text">
                   Designed interactive educational games to enhance student
                   engagement and learning outcomes.Researched game mechanics,
                   developed educational content, and aligned games with
@@ -40,7 +40,7 @@ const ProjectsSection = () => {
                   experience for students.
                 </p>
               </div>
-              <p className="  text-2xl text-secondary-foreground">
+              <p className="  text-secondary-foreground 2xl:text-xl">
                 #immersive design #extended reality #interaction design #game
                 design
               </p>
@@ -49,23 +49,25 @@ const ProjectsSection = () => {
         </div>
       </div>
       <div className=" flex-1 w-full flex justify-center items-center gap-[10%]">
-        <div className=" flex w-1/4 gap-[70px] h-4/5">
+        <div className=" flex w-1/4 gap-[70px] h-4/5 2xl:h-3/5">
           <div className=" relative w-[5px] rounded-b-full   ">
             <div className=" absolute top-0 left-0 h-full bg-white w-[5px] project-line"></div>
-            <div className="  h-[30px] w-[45px] bg-white"></div>
+            <div className="  h-[30px] w-[45px] bg-white  project-rect"></div>
             <div className="  project-circle rounded-full bg-white absolute bottom-0 left-1/2 -translate-x-1/2 "></div>
           </div>
           <div>
             <div className=" flex justify-between flex-col h-full">
-              <div className=" space-y-2">
-                <h3 className=" text-2xl font-medium">Design System</h3>
-                <p className=" mt-8 text-2xl text-secondary-foreground">
+              <div className=" space-y-2 w-full overflow-clip">
+                <h3 className=" text-2xl 2xl:text-3xl font-medium  project-text">
+                  Design System
+                </h3>
+                <p className=" mt-8 text-secondary-foreground 2xl:text-xl  project-text">
                   {
                     "Contributed to ZEE's design system team, focusing on essential components and ensuring consistency across all products, while bridging the gap between designers and developers. Collaborated on developing design tokens, components, and a visual library."
                   }
                 </p>
               </div>
-              <p className="  text-2xl text-secondary-foreground">
+              <p className="  text-secondary-foreground 2xl:text-xl">
                 #design system #visual design #motion design #copywriting
                 #interaction design
               </p>
@@ -89,25 +91,27 @@ const ProjectsSection = () => {
           alt="Timely project preview"
           className=" h-full w-auto"
         />
-        <div className=" flex w-1/4 gap-[70px] h-4/5">
+        <div className=" flex w-1/4 gap-[70px] h-4/5 2xl:h-3/5">
           <div className=" relative w-[5px] rounded-b-full   ">
             <div className=" absolute top-0 left-0 h-full bg-white w-[5px] project-line"></div>
-            <div className="  h-[30px] w-[45px] bg-white"></div>
+            <div className="  h-[30px] w-[45px] bg-white  project-rect"></div>
             <div className="  project-circle rounded-full bg-white absolute bottom-0 left-1/2 -translate-x-1/2 "></div>
           </div>
 
           <div>
             <div className=" flex justify-between flex-col h-full">
-              <div className=" space-y-2">
-                <h3 className=" text-2xl font-medium">Timely</h3>
-                <p className=" mt-8 text-2xl text-secondary-foreground">
+              <div className=" space-y-2 w-full  overflow-clip">
+                <h3 className=" text-2xl 2xl:text-3xl font-medium  project-text">
+                  Timely
+                </h3>
+                <p className=" mt-8 text-secondary-foreground 2xl:text-xl project-text">
                   Timely is an productivity app designed to help collage
                   students bridge their personal and academic goals, by
                   increasing accountability of their activities towards their
                   goals.
                 </p>
               </div>
-              <p className="  text-2xl text-secondary-foreground">
+              <p className="  text-secondary-foreground 2xl:text-xl">
                 #interaction design #visual design #app design #research
               </p>
             </div>

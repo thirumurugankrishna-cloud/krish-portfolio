@@ -84,7 +84,8 @@
 
   border-radius: 46px;
   background: #f2f2f2;
-  box-shadow: 0px 0px 25px 0px #fff;
+
+  animation: circle-blink infinite 1.5s ease-in-out;
 }
 
 .projects-heading {
@@ -110,5 +111,87 @@
 @keyframes scale-line-scroll {
   to {
     scale: 1 1;
+  }
+}
+
+.project-rect {
+  scale: 0 1;
+  animation: scale-rect-scroll linear forwards;
+  animation-timeline: view();
+  animation-range: 50vh 60vh;
+  transform-origin: left;
+}
+
+@keyframes scale-rect-scroll {
+  to {
+    scale: 1 1;
+  }
+}
+
+.project-text {
+  /* scale: 0.6; */
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: text-slide-in linear forwards;
+  animation-timeline: view();
+  animation-range: 60vh 70vh;
+}
+
+@keyframes text-slide-in {
+  to {
+    /* /* scale: 1; */
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes circle-blink {
+  0% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0px 0px 25px 0px #fff;
+  }
+  100% {
+    box-shadow: none;
+  }
+}
+
+.inktober-column {
+  transform: translateY(-75%);
+  animation: inktober-column-scroll linear forwards;
+  animation-timeline: scroll();
+  animation-range: 510vh 700vh;
+}
+
+@keyframes inktober-column-scroll {
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.models-column {
+  transform: translateY(0%);
+  animation: models-column-scroll linear forwards;
+  animation-timeline: scroll();
+  animation-range: 510vh 700vh;
+}
+
+@keyframes models-column-scroll {
+  to {
+    transform: translateY(-75%);
+  }
+}
+
+.hobbies-section {
+  transform: translateY(-100vh);
+  animation: hobbies-section-scroll linear forwards;
+  animation-timeline: scroll();
+  animation-range: 410vh 510vh;
+}
+
+@keyframes hobbies-section-scroll {
+  to {
+    transform: translateY(0);
   }
 }

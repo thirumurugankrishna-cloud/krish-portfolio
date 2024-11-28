@@ -3,7 +3,7 @@ import React from "react";
 
 const ProjectsSection = () => {
   return (
-    <section className=" h-[300vh] w-full flex flex-col items-center justify-between pb-[90px] gap-[200px] ">
+    <section className=" h-[350vh] w-full flex flex-col items-center justify-between mb-[90px] gap-[20vh] ">
       <div className=" border-y w-full border-white py-6 overflow-clip ">
         <h2 className=" text-[96px]  font-medium text-[#F2F2F2]  leading-none text-center tracking-tight whitespace-nowrap projects-heading">
           SELECTED PROJECTS - SELECTED PROJECTS - SELECTED PROJECTS - SELECTED
@@ -11,7 +11,7 @@ const ProjectsSection = () => {
         </h2>
       </div>
 
-      <div className=" h-full w-full flex justify-center items-center gap-[10%]">
+      <div className=" flex-1 w-full flex justify-center items-center gap-[10%]">
         <Image
           src={"/project-img/timely.png"}
           height={1030}
@@ -43,7 +43,7 @@ const ProjectsSection = () => {
           </div>
         </div>
       </div>
-      <div className=" h-full w-full flex justify-center items-center gap-[10%]">
+      <div className=" flex-1 w-full flex justify-center items-center gap-[10%]">
         <div className=" flex w-1/4 gap-[70px]">
           <div className=" relative w-[5px] rounded-b-full   ">
             <div className=" absolute top-0 left-0 h-full bg-white w-[5px] project-line"></div>
@@ -72,7 +72,7 @@ const ProjectsSection = () => {
         />
       </div>
 
-      <div className=" h-full w-full flex justify-center items-center gap-[10%]">
+      <div className=" flex-1 w-full flex justify-center items-center gap-[10%]">
         <Image
           src={"/project-img/timely.png"}
           height={1030}

@@ -19,48 +19,57 @@ const ProjectsSection = () => {
           alt="Timely project preview"
           className=" h-full w-auto"
         />
-        <div className="  flex w-1/4 gap-[70px]">
+        <div className=" flex w-1/4 gap-[70px] h-4/5">
           <div className=" relative w-[5px] rounded-b-full   ">
             <div className=" absolute top-0 left-0 h-full bg-white w-[5px] project-line"></div>
             <div className="  h-[30px] w-[45px] bg-white"></div>
             <div className="  project-circle rounded-full bg-white absolute bottom-0 left-1/2 -translate-x-1/2 "></div>
           </div>
+
           <div>
-            <h3 className=" text-2xl font-medium">
-              {"Immersive Interfaces for Children's Education"}
-            </h3>
-            <p className=" mt-8 text-2xl text-secondary-foreground">
-              Designed interactive educational games to enhance student
-              engagement and learning outcomes.Researched game mechanics,
-              developed educational content, and aligned games with curriculum
-              objectives. Aimed to enhance the virtual learning experience for
-              students.
-            </p>
-            <p className=" mt-[190px] text-2xl text-secondary-foreground">
-              #immersive design #extended reality #interaction design #game
-              design
-            </p>
+            <div className=" flex justify-between flex-col h-full">
+              <div className=" space-y-2">
+                <h3 className=" text-2xl font-medium">
+                  {"Immersive Interfaces for Children's Education"}
+                </h3>
+                <p className=" mt-8 text-2xl text-secondary-foreground">
+                  Designed interactive educational games to enhance student
+                  engagement and learning outcomes.Researched game mechanics,
+                  developed educational content, and aligned games with
+                  curriculum objectives. Aimed to enhance the virtual learning
+                  experience for students.
+                </p>
+              </div>
+              <p className="  text-2xl text-secondary-foreground">
+                #immersive design #extended reality #interaction design #game
+                design
+              </p>
+            </div>
           </div>
         </div>
       </div>
       <div className=" flex-1 w-full flex justify-center items-center gap-[10%]">
-        <div className=" flex w-1/4 gap-[70px]">
+        <div className=" flex w-1/4 gap-[70px] h-4/5">
           <div className=" relative w-[5px] rounded-b-full   ">
             <div className=" absolute top-0 left-0 h-full bg-white w-[5px] project-line"></div>
             <div className="  h-[30px] w-[45px] bg-white"></div>
             <div className="  project-circle rounded-full bg-white absolute bottom-0 left-1/2 -translate-x-1/2 "></div>
           </div>
           <div>
-            <h3 className=" text-2xl font-medium">Design System</h3>
-            <p className=" mt-8 text-2xl text-secondary-foreground">
-              {
-                "Contributed to ZEE's design system team, focusing on essential components and ensuring consistency across all products, while bridging the gap between designers and developers. Collaborated on developing design tokens, components, and a visual library."
-              }
-            </p>
-            <p className=" mt-[190px] text-2xl text-secondary-foreground">
-              #design system #visual design #motion design #copywriting
-              #interaction design
-            </p>
+            <div className=" flex justify-between flex-col h-full">
+              <div className=" space-y-2">
+                <h3 className=" text-2xl font-medium">Design System</h3>
+                <p className=" mt-8 text-2xl text-secondary-foreground">
+                  {
+                    "Contributed to ZEE's design system team, focusing on essential components and ensuring consistency across all products, while bridging the gap between designers and developers. Collaborated on developing design tokens, components, and a visual library."
+                  }
+                </p>
+              </div>
+              <p className="  text-2xl text-secondary-foreground">
+                #design system #visual design #motion design #copywriting
+                #interaction design
+              </p>
+            </div>
           </div>
         </div>
         <Image
@@ -80,22 +89,28 @@ const ProjectsSection = () => {
           alt="Timely project preview"
           className=" h-full w-auto"
         />
-        <div className=" flex w-1/4 gap-[70px]">
+        <div className=" flex w-1/4 gap-[70px] h-4/5">
           <div className=" relative w-[5px] rounded-b-full   ">
             <div className=" absolute top-0 left-0 h-full bg-white w-[5px] project-line"></div>
             <div className="  h-[30px] w-[45px] bg-white"></div>
             <div className="  project-circle rounded-full bg-white absolute bottom-0 left-1/2 -translate-x-1/2 "></div>
           </div>
+
           <div>
-            <h3 className=" text-2xl font-medium">Timely</h3>
-            <p className=" mt-8 text-2xl text-secondary-foreground">
-              Timely is an productivity app designed to help collage students
-              bridge their personal and academic goals, by increasing
-              accountability of their activities towards their goals.
-            </p>
-            <p className=" mt-[190px] text-2xl text-secondary-foreground">
-              #interaction design #visual design #app design #research
-            </p>
+            <div className=" flex justify-between flex-col h-full">
+              <div className=" space-y-2">
+                <h3 className=" text-2xl font-medium">Timely</h3>
+                <p className=" mt-8 text-2xl text-secondary-foreground">
+                  Timely is an productivity app designed to help collage
+                  students bridge their personal and academic goals, by
+                  increasing accountability of their activities towards their
+                  goals.
+                </p>
+              </div>
+              <p className="  text-2xl text-secondary-foreground">
+                #interaction design #visual design #app design #research
+              </p>
+            </div>
           </div>
         </div>
       </div>

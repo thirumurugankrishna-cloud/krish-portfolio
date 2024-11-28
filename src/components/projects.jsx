@@ -3,7 +3,7 @@ import React from "react";
 
 const ProjectsSection = () => {
   return (
-    <section className=" h-[350vh] w-full flex flex-col items-center justify-between mb-[90px] gap-[20vh] ">
+    <section className=" h-[350vh] w-full flex flex-col items-center justify-between mb-[10vh] gap-[20vh] ">
       <div className=" border-y w-full border-white py-6 overflow-clip ">
         <h2 className=" text-[96px]  font-medium text-[#F2F2F2]  leading-none text-center tracking-tight whitespace-nowrap projects-heading">
           SELECTED PROJECTS - SELECTED PROJECTS - SELECTED PROJECTS - SELECTED

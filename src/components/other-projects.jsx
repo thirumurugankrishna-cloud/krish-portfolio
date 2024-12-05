@@ -8,12 +8,13 @@ const OtherProjectsSection = () => {
         OTHER PROJECTS
       </h2>
 
-      <div className=" flex mt-12 justify-center gap-16">
+      <div className=" flex mt-12 justify-center gap-16 h-[30vh]">
         <div className=" relative group">
           <Image
             src={"/project-img/other-project-1.png"}
             height={380}
             width={528}
+            className=" h-full w-auto"
             alt="Other project 1 preview"
           />
           <div className=" absolute inset-0 opacity-0 pointer-events-none group-hover:opacity-100  group-hover:bg-background/80 z-10 transition-all duration-200 flex flex-col p-4  gap-3">
@@ -33,6 +34,7 @@ const OtherProjectsSection = () => {
             src={"/project-img/other-project-2.png"}
             height={380}
             width={528}
+            className=" h-full w-auto"
             alt="Other project 2 preview"
           />
           <div className=" absolute inset-0 opacity-0 pointer-events-none group-hover:opacity-100  group-hover:bg-background/80 z-10 transition-all duration-200 flex flex-col p-4  gap-3">
@@ -51,6 +53,7 @@ const OtherProjectsSection = () => {
             src={"/project-img/other-project-3.png"}
             height={380}
             width={528}
+            className=" h-full w-auto"
             alt="Other project 3 preview"
           />
           <div className=" absolute inset-0 opacity-0 pointer-events-none group-hover:opacity-100  group-hover:bg-background/80 z-10 transition-all duration-200 flex flex-col p-4  gap-3">

@@ -16,7 +16,7 @@ const Navbar = () => {
 
       <div className=" flex items-center justify-center gap-[70px] font-medium 2xl:text-xl leading-5 tracking-[0.2px]">
         <Link href={"#"}>Work</Link>
-        <Link href={"#"}>About</Link>
+        <Link href={"/about"}>About</Link>
         <Link href={"#"}>Resume</Link>
       </div>
     </nav>

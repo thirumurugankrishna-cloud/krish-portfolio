@@ -51,7 +51,7 @@ const AboutPage = () => {
           </div>
         </section>
 
-        <div className=" my-20 bg-[#424242] px-10  w-full h-[1px]"></div>
+        <div className=" my-20 bg-[#424242]  mx-auto w-[90%]  h-[1px]"></div>
 
         <section className=" space-y-12">
           <div className=" flex gap-2 items-center">
@@ -148,7 +148,94 @@ const AboutPage = () => {
           </div>
         </section>
 
-        <section className=" my-24"></section>
+        <div className=" my-20 bg-[#424242] mx-auto w-[90%] h-[1px]"></div>
+        <section className="  space-y-24 mb-24 ">
+          <div className=" flex gap-2 items-center">
+            <div className=" size-3 rounded-full bg-white  shadow-[0px_0px_20px_0px]"></div>
+            <h2 className=" text-lg text-[#808080]">SKILLS</h2>
+          </div>
+          <div className=" w-full grid grid-cols-3 gap-24">
+            <div className=" space-y-3">
+              <h3 className=" text-foreground text-2xl">UX Design</h3>
+              <p className=" text-teritary-foreground text-xl">
+                I Apply UX design principles to create intuitive and engaging
+                digital experiences, prioritizing user needs and business goals
+                for optimal product success
+              </p>
+            </div>
+
+            <div className=" space-y-3">
+              <h3 className=" text-foreground text-2xl">UX Research</h3>
+              <p className=" text-teritary-foreground text-xl">
+                Utilized UX research methodologies to inform and enhance
+                user-centered design decisions, resulting in intuitive and
+                effective digital experiences.
+              </p>
+            </div>
+
+            <div className=" space-y-3">
+              <h3 className=" text-foreground text-2xl">Prototyping</h3>
+              <p className=" text-teritary-foreground text-xl">
+                I Apply UX design principles to create intuitive and engaging
+                digital experiences, prioritizing user needs and business goals
+                for optimal product success
+              </p>
+            </div>
+
+            <div className=" space-y-3">
+              <h3 className=" text-foreground text-2xl">UX Design</h3>
+              <p className=" text-teritary-foreground text-xl">
+                Employed prototyping techniques to iteratively refine design
+                concepts, resulting in user-centric digital solutions with
+                enhanced usability and functionality
+              </p>
+            </div>
+
+            <div className=" space-y-3">
+              <h3 className=" text-foreground text-2xl">Collaboration</h3>
+              <p className=" text-teritary-foreground text-xl">
+                I bring positive energy to teams I work in and can communicate
+                effectively about the decisions.
+              </p>
+            </div>
+
+            <div className=" space-y-3">
+              <h3 className=" text-foreground text-2xl">Workshops</h3>
+              <p className=" text-teritary-foreground text-xl">
+                Led collaborative workshops to foster innovation and alignment
+                among cross-functional teams, resulting in actionable insights
+                and accelerated project timelines
+              </p>
+            </div>
+
+            <div className=" space-y-3">
+              <h3 className=" text-foreground text-2xl">Visual Design</h3>
+              <p className=" text-teritary-foreground text-xl">
+                Utilized visual design principles to craft compelling and
+                cohesive digital experiences, elevating brand identity and
+                enhancing user engagement across platforms
+              </p>
+            </div>
+
+            <div className=" space-y-3">
+              <h3 className=" text-foreground text-2xl">3D & Animation</h3>
+              <p className=" text-teritary-foreground text-xl">
+                Applied 3D modeling and animation techniques to create immersive
+                and visually stunning digital experiences, enhancing user
+                engagement and storytelling capabilities.
+              </p>
+            </div>
+
+            <div className=" space-y-3">
+              <h3 className=" text-foreground text-2xl">Problem Solving</h3>
+              <p className=" text-teritary-foreground text-xl">
+                Utilized problem-solving skills to analyze complex challenges
+                and devise innovative solutions, resulting in streamlined
+                processes and improved user experiences.
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer />

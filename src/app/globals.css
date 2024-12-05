@@ -65,6 +65,10 @@
   }
 }
 
+html {
+  @apply scroll-smooth;
+}
+
 .stories {
   text-shadow: 0px 5px 15px rgba(0, 87, 255, 0.1),
     0px -5px 15px rgba(255, 90, 0, 0.08), 0px 0px 30px rgba(255, 255, 255, 0.2);
@@ -195,4 +199,29 @@
   to {
     transform: translateY(0);
   }
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: white;
+  bottom: 0;
+  left: 0;
+  scale: 0 1;
+  transform-origin: center;
+  transition: scale 100ms ease-out;
+}
+
+.nav-link:hover::after {
+  scale: 1 1;
+}
+
+.image-overlay {
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
 }

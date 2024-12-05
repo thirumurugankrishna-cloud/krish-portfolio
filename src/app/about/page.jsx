@@ -25,7 +25,7 @@ const AboutPage = () => {
               className=" h-full lg:h-[60vh] w-auto"
             />
 
-            <div className=" space-y-12 text-base lg:text-2xl text-[#BCBCBC] font-light leading-loose">
+            <div className=" space-y-12 text-base 2xl:text-2xl text-[#BCBCBC] font-light leading-loose">
               <p>
                 I&apos;m Krishna, a{" "}
                 <span className=" font-bold">product designer</span>, Currently
@@ -60,18 +60,27 @@ const AboutPage = () => {
           </div>
           <div className=" grid grid-cols-2 gap-[72px]">
             <div className=" space-y-4">
-              <h3 className=" text-foreground text-4xl">Clootrack</h3>
-              <p className=" text-secondary-foreground text-2xl">Bangalore</p>
-              <Globe className=" text-white size-8" />
+              <h3 className=" text-foreground text-[28px] 2xl:text-4xl">
+                Clootrack
+              </h3>
+              <p className=" text-secondary-foreground text-xl 2xl:text-2xl">
+                Bangalore
+              </p>
+
+              <div className=" flex gap-6">
+                <a target="_blank" href="https://www.clootrack.com/">
+                  <Globe className=" text-white size-6 2xl:size-8" />
+                </a>
+              </div>
             </div>
             <div className=" ">
-              <h3 className=" mb-3 text-2xl text-foreground">
+              <h3 className=" mb-3 text-xl 2xl:text-2xl text-foreground ">
                 Product Designer
               </h3>
-              <p className=" mb-6 text-teritary-foreground text-xl">
+              <p className=" mb-6 text-teritary-foreground 2xl:text-xl ">
                 06/&apos;24 - Present
               </p>
-              <p className=" text-teritary-foreground text-xl">
+              <p className=" text-teritary-foreground 2xl:text-xl">
                 Translated concepts into Figma prototypes, driving efficient
                 productization. Designed Genie, a GPT-4 chatbot enabling data
                 exploration beyond dashboards. Built a cohesive design system to
@@ -80,22 +89,45 @@ const AboutPage = () => {
             </div>
 
             <div className=" space-y-4">
-              <h3 className=" text-foreground text-4xl">ZEE Entertainment</h3>
-              <p className=" text-secondary-foreground text-2xl">Bangalore</p>
+              <h3 className=" text-foreground text-[28px] 2xl:text-4xl">
+                ZEE Entertainment
+              </h3>
+              <p className=" text-secondary-foreground text-xl 2xl:text-2xl">
+                Bangalore
+              </p>
               <div className=" flex gap-6">
-                <Globe className=" text-white size-8" />
-                <FaAndroid className=" text-white size-8" size={32} />
-                <FaAppStoreIos className=" text-white size-8" size={32} />
+                <a target="_blank" href="https://www.zee5.com/">
+                  <Globe className=" text-white size-6 2xl:size-8" />
+                </a>
+
+                <a
+                  target="_blank"
+                  href="https://play.google.com/store/apps/details?id=com.graymatrix.did"
+                >
+                  <FaAndroid
+                    className=" text-white size-6 2xl:size-8"
+                    size={32}
+                  />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://apps.apple.com/in/app/zee5-movies-web-series-shows/id743691886"
+                >
+                  <FaAppStoreIos
+                    className=" text-white size-6 2xl:size-8"
+                    size={32}
+                  />
+                </a>
               </div>
             </div>
             <div className=" ">
-              <h3 className=" mb-3 text-2xl text-foreground">
+              <h3 className=" mb-3 text-xl 2xl:text-2xl text-foreground ">
                 Associate Product Designer, Design Systems
               </h3>
-              <p className=" mb-6 text-teritary-foreground text-xl">
+              <p className=" mb-6 text-teritary-foreground 2xl:text-xl ">
                 06/&apos;23 - 03/&apos;24
               </p>
-              <p className=" text-teritary-foreground text-xl">
+              <p className=" text-teritary-foreground 2xl:text-xl">
                 Contributed to the ZEE design system team, focusing on essential
                 components and ensuring consistency across all products.
                 Collaborated on developing design tokens, components, and a
@@ -105,18 +137,27 @@ const AboutPage = () => {
             </div>
 
             <div className=" space-y-4">
-              <h3 className=" text-foreground text-4xl">Agrivision4U</h3>
-              <p className=" text-secondary-foreground text-2xl">Remote</p>
-              <Globe className=" text-white size-8" />
+              <h3 className=" text-foreground text-[28px] 2xl:text-4xl">
+                Agrivision4U
+              </h3>
+              <p className=" text-secondary-foreground text-xl 2xl:text-2xl">
+                Remote
+              </p>
+
+              <div className=" flex gap-6">
+                <a target="_blank" href="https://www.agrivision4u.com/">
+                  <Globe className=" text-white size-6 2xl:size-8" />
+                </a>
+              </div>
             </div>
             <div className=" ">
-              <h3 className=" mb-3 text-2xl text-foreground">
+              <h3 className=" mb-3 text-xl 2xl:text-2xl text-foreground ">
                 UX Design Intern, Website Designer
               </h3>
-              <p className=" mb-6 text-teritary-foreground text-xl">
+              <p className=" mb-6 text-teritary-foreground 2xl:text-xl ">
                 Summer &apos;21
               </p>
-              <p className=" text-teritary-foreground text-xl">
+              <p className=" text-teritary-foreground 2xl:text-xl">
                 Interned as a UI designer at AgriVision4U, conducting research
                 to inform the website&apos;s UI design. Created intuitive,
                 visually appealing UI elements aligned with the brand and target
@@ -125,17 +166,21 @@ const AboutPage = () => {
             </div>
 
             <div className=" space-y-4">
-              <h3 className=" text-foreground text-4xl">
+              <h3 className=" text-foreground text-[28px] 2xl:text-4xl">
                 Indian Institute of Technology
               </h3>
-              <p className=" text-secondary-foreground text-2xl">Guwahati</p>
+              <p className=" text-secondary-foreground text-xl 2xl:text-2xl">
+                Guwahati
+              </p>
             </div>
             <div className=" ">
-              <h3 className=" mb-3 text-2xl text-foreground">B.Des</h3>
-              <p className=" mb-6 text-teritary-foreground text-xl">
+              <h3 className=" mb-3 text-xl 2xl:text-2xl text-foreground ">
+                Bachelor of Design
+              </h3>
+              <p className=" mb-6 text-teritary-foreground 2xl:text-xl ">
                 07/&apos;19 - 05/&apos;23
               </p>
-              <p className=" text-teritary-foreground text-xl">
+              <p className=" text-teritary-foreground 2xl:text-xl">
                 During my four years at IIT Guwahati, I delved into diverse
                 design domains, gaining a well-rounded foundation in the field.
                 For my bachelor&apos;s project, I designed an immersive learning
@@ -156,8 +201,10 @@ const AboutPage = () => {
           </div>
           <div className=" w-full grid grid-cols-3 gap-24">
             <div className=" space-y-3">
-              <h3 className=" text-foreground text-2xl">UX Design</h3>
-              <p className=" text-teritary-foreground text-xl">
+              <h3 className=" text-foreground text-xl 2xl:text-2xl">
+                UX Design
+              </h3>
+              <p className=" text-teritary-foreground text-base 2xl:text-xl">
                 I Apply UX design principles to create intuitive and engaging
                 digital experiences, prioritizing user needs and business goals
                 for optimal product success
@@ -165,8 +212,10 @@ const AboutPage = () => {
             </div>
 
             <div className=" space-y-3">
-              <h3 className=" text-foreground text-2xl">UX Research</h3>
-              <p className=" text-teritary-foreground text-xl">
+              <h3 className=" text-foreground text-xl 2xl:text-2xl">
+                UX Research
+              </h3>
+              <p className=" text-teritary-foreground text-base 2xl:text-xl">
                 Utilized UX research methodologies to inform and enhance
                 user-centered design decisions, resulting in intuitive and
                 effective digital experiences.
@@ -174,8 +223,10 @@ const AboutPage = () => {
             </div>
 
             <div className=" space-y-3">
-              <h3 className=" text-foreground text-2xl">Prototyping</h3>
-              <p className=" text-teritary-foreground text-xl">
+              <h3 className=" text-foreground text-xl 2xl:text-2xl">
+                Prototyping
+              </h3>
+              <p className=" text-teritary-foreground text-base 2xl:text-xl">
                 I Apply UX design principles to create intuitive and engaging
                 digital experiences, prioritizing user needs and business goals
                 for optimal product success
@@ -183,8 +234,10 @@ const AboutPage = () => {
             </div>
 
             <div className=" space-y-3">
-              <h3 className=" text-foreground text-2xl">UX Design</h3>
-              <p className=" text-teritary-foreground text-xl">
+              <h3 className=" text-foreground text-xl 2xl:text-2xl">
+                UX Design
+              </h3>
+              <p className=" text-teritary-foreground text-base 2xl:text-xl">
                 Employed prototyping techniques to iteratively refine design
                 concepts, resulting in user-centric digital solutions with
                 enhanced usability and functionality
@@ -192,16 +245,20 @@ const AboutPage = () => {
             </div>
 
             <div className=" space-y-3">
-              <h3 className=" text-foreground text-2xl">Collaboration</h3>
-              <p className=" text-teritary-foreground text-xl">
+              <h3 className=" text-foreground text-xl 2xl:text-2xl">
+                Collaboration
+              </h3>
+              <p className=" text-teritary-foreground text-base 2xl:text-xl">
                 I bring positive energy to teams I work in and can communicate
                 effectively about the decisions.
               </p>
             </div>
 
             <div className=" space-y-3">
-              <h3 className=" text-foreground text-2xl">Workshops</h3>
-              <p className=" text-teritary-foreground text-xl">
+              <h3 className=" text-foreground text-xl 2xl:text-2xl">
+                Workshops
+              </h3>
+              <p className=" text-teritary-foreground text-base 2xl:text-xl">
                 Led collaborative workshops to foster innovation and alignment
                 among cross-functional teams, resulting in actionable insights
                 and accelerated project timelines
@@ -209,8 +266,10 @@ const AboutPage = () => {
             </div>
 
             <div className=" space-y-3">
-              <h3 className=" text-foreground text-2xl">Visual Design</h3>
-              <p className=" text-teritary-foreground text-xl">
+              <h3 className=" text-foreground text-xl 2xl:text-2xl">
+                Visual Design
+              </h3>
+              <p className=" text-teritary-foreground text-base 2xl:text-xl">
                 Utilized visual design principles to craft compelling and
                 cohesive digital experiences, elevating brand identity and
                 enhancing user engagement across platforms
@@ -218,8 +277,10 @@ const AboutPage = () => {
             </div>
 
             <div className=" space-y-3">
-              <h3 className=" text-foreground text-2xl">3D & Animation</h3>
-              <p className=" text-teritary-foreground text-xl">
+              <h3 className=" text-foreground text-xl 2xl:text-2xl">
+                3D & Animation
+              </h3>
+              <p className=" text-teritary-foreground text-base 2xl:text-xl">
                 Applied 3D modeling and animation techniques to create immersive
                 and visually stunning digital experiences, enhancing user
                 engagement and storytelling capabilities.
@@ -227,8 +288,10 @@ const AboutPage = () => {
             </div>
 
             <div className=" space-y-3">
-              <h3 className=" text-foreground text-2xl">Problem Solving</h3>
-              <p className=" text-teritary-foreground text-xl">
+              <h3 className=" text-foreground text-xl 2xl:text-2xl">
+                Problem Solving
+              </h3>
+              <p className=" text-teritary-foreground text-base 2xl:text-xl">
                 Utilized problem-solving skills to analyze complex challenges
                 and devise innovative solutions, resulting in streamlined
                 processes and improved user experiences.

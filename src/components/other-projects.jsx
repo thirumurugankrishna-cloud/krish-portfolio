@@ -17,7 +17,11 @@ const OtherProjectsSection = () => {
             className=" h-full w-auto"
             alt="Other project 1 preview"
           />
-          <div className=" absolute inset-0 opacity-0 pointer-events-none group-hover:opacity-100  group-hover:bg-background/80 z-10 transition-all duration-200 flex flex-col p-4  gap-3">
+          <a
+            href="https://www.behance.net/gallery/154680901/Designing-for-the-Vision-Impaired"
+            target="_blank"
+            className=" absolute inset-0 opacity-0  group-hover:opacity-100  group-hover:bg-background/80 z-10 transition-all duration-200 flex flex-col p-4  gap-3"
+          >
             <h3 className=" font-medium text-2xl 2xl:text-[28px]">
               Designing for the vision impaired
             </h3>
@@ -26,7 +30,7 @@ const OtherProjectsSection = () => {
               currencies. The aim is to build a tangible product which can help
               them detect different currencies.
             </p>
-          </div>
+          </a>
         </div>
 
         <div className=" relative group">
@@ -37,7 +41,12 @@ const OtherProjectsSection = () => {
             className=" h-full w-auto"
             alt="Other project 2 preview"
           />
-          <div className=" absolute inset-0 opacity-0 pointer-events-none group-hover:opacity-100  group-hover:bg-background/80 z-10 transition-all duration-200 flex flex-col p-4  gap-3">
+
+          <a
+            href="https://www.behance.net/gallery/157087565/File-Manager"
+            target="_blank"
+            className=" absolute inset-0 opacity-0  group-hover:opacity-100  group-hover:bg-background/80 z-10 transition-all duration-200 flex flex-col p-4  gap-3"
+          >
             <h3 className=" font-medium text-2xl 2xl:text-[28px]">
               File Manager
             </h3>
@@ -45,7 +54,7 @@ const OtherProjectsSection = () => {
               A unified platform for easy file transfer, organization, and
               sharing with smart cleanup and quick cloud access
             </p>
-          </div>
+          </a>
         </div>
 
         <div className=" relative group">
@@ -56,7 +65,11 @@ const OtherProjectsSection = () => {
             className=" h-full w-auto"
             alt="Other project 3 preview"
           />
-          <div className=" absolute inset-0 opacity-0 pointer-events-none group-hover:opacity-100  group-hover:bg-background/80 z-10 transition-all duration-200 flex flex-col p-4  gap-3">
+          <a
+            href="https://www.agrivision4u.com/"
+            target="_blank"
+            className=" absolute inset-0 opacity-0  group-hover:opacity-100  group-hover:bg-background/80 z-10 transition-all duration-200 flex flex-col p-4  gap-3"
+          >
             <h3 className=" font-medium text-2xl 2xl:text-[28px]">
               Agrivison4U Website
             </h3>
@@ -64,7 +77,7 @@ const OtherProjectsSection = () => {
               Redesigned the website with intuitive UI elements and a tailored
               UI kit for a seamless, user-focused experience.
             </p>
-          </div>
+          </a>
         </div>
       </div>
     </section>

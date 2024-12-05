@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -13,16 +14,43 @@ const Footer = () => {
         <p className=" text-sm text-center">thirumurugankrishna@gmail.com</p>
       </div>
       <div className=" flex gap-[88px]">
-        <div className=" space-y-8">
+        <div className=" flex flex-col gap-8">
           <h4 className=" text-sm 2xl:text-base text-[#808080]">NAVIGATION</h4>
-          <p className=" text-lg 2xl:text-2xl ">Work</p>
-          <p className=" text-lg 2xl:text-2xl ">About</p>
+          <Link
+            className=" relative nav-link text-lg 2xl:text-2xl w-fit"
+            href={"/#work"}
+          >
+            Work
+          </Link>
+          <Link
+            className=" relative nav-link text-lg 2xl:text-2xl w-fit"
+            href={"/about"}
+          >
+            About
+          </Link>
         </div>
-        <div className=" space-y-8">
+        <div className=" flex gap-8 flex-col">
           <h4 className=" text-sm 2xl:text-base text-[#808080]">PROJECTS</h4>
-          <p className=" text-lg 2xl:text-2xl ">Immersive Education</p>
-          <p className=" text-lg 2xl:text-2xl ">Clootrack</p>
-          <p className=" text-lg 2xl:text-2xl ">ZEE5 Design System</p>
+          <Link
+            className=" relative nav-link text-lg 2xl:text-2xl w-fit"
+            href={"/#work"}
+          >
+            Immersive Education
+          </Link>
+
+          <Link
+            className=" relative nav-link text-lg 2xl:text-2xl w-fit"
+            href={"/#work"}
+          >
+            Clootrack
+          </Link>
+
+          <Link
+            className=" relative nav-link text-lg 2xl:text-2xl w-fit"
+            href={"/#work"}
+          >
+            ZEE5 Design System
+          </Link>
         </div>
       </div>
     </footer>

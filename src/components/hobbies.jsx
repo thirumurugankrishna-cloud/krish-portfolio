@@ -9,90 +9,90 @@ const HobbiesSection = () => {
           <div className=" flex flex-col gap-8 models-column">
             <Image
               priority={true}
-              src={"/3d-models/model-1.png"}
+              src={"/gifs/Frame_1.gif"}
               height={120}
               width={200}
-              alt="3d-models frame 1"
+              alt="gifs frame 1"
               className=" w-full h-auto"
             />
             <Image
               priority={true}
-              src={"/3d-models/model-2.png"}
+              src={"/gifs/Frame_2.gif"}
               height={120}
               width={200}
-              alt="3d-models frame 2"
+              alt="gifs frame 2"
               className=" w-full h-auto"
             />
             <Image
               priority={true}
-              src={"/3d-models/model-3.png"}
+              src={"/gifs/Frame_3.gif"}
               height={120}
               width={200}
-              alt="3d-models frame 3"
+              alt="gifs frame 3"
               className=" w-full h-auto"
             />
             <Image
               priority={true}
-              src={"/3d-models/model-4.png"}
+              src={"/gifs/Frame_4.gif"}
               height={120}
               width={200}
-              alt="3d-models frame 4"
+              alt="gifs frame 4"
               className=" w-full h-auto"
             />
             <Image
               priority={true}
-              src={"/3d-models/model-5.png"}
+              src={"/gifs/Frame_5.gif"}
               height={120}
               width={200}
-              alt="3d-models frame 5"
+              alt="gifs frame 5"
               className=" w-full h-auto"
             />
             <Image
               priority={true}
-              src={"/3d-models/model-6.png"}
+              src={"/gifs/Frame_6.gif"}
               height={120}
               width={200}
-              alt="3d-models frame 6"
+              alt="gifs frame 6"
               className=" w-full h-auto"
             />
             <Image
               priority={true}
-              src={"/3d-models/model-7.png"}
+              src={"/gifs/Frame_7.gif"}
               height={120}
               width={200}
-              alt="3d-models frame 7"
+              alt="gifs frame 7"
               className=" w-full h-auto"
             />
             <Image
               priority={true}
-              src={"/3d-models/model-8.png"}
+              src={"/gifs/Frame_8.gif"}
               height={120}
               width={200}
-              alt="3d-models frame 8"
+              alt="gifs frame 8"
               className=" w-full h-auto"
             />
             <Image
               priority={true}
-              src={"/3d-models/model-9.png"}
+              src={"/gifs/Frame_9.gif"}
               height={120}
               width={200}
-              alt="3d-models frame 9"
+              alt="gifs frame 9"
               className=" w-full h-auto"
             />
             <Image
               priority={true}
-              src={"/3d-models/model-10.png"}
+              src={"/gifs/Frame_10.gif"}
               height={120}
               width={200}
-              alt="3d-models frame 10"
+              alt="gifs frame 10"
               className=" w-full h-auto"
             />
             <Image
               priority={true}
-              src={"/3d-models/model-11.png"}
+              src={"/gifs/Frame_11.gif"}
               height={120}
               width={200}
-              alt="3d-models frame 11"
+              alt="gifs frame 11"
               className=" w-full h-auto"
             />
           </div>

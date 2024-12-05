@@ -25,7 +25,7 @@ const ProjectsSection = () => {
             className=" h-[80vh] w-auto"
           />
 
-          <div className=" absolute image-overlay group-hover:backdrop-blur-[1px] opacity-0 group-hover:opacity-100 z-10 -inset-2 transition-all duration-200 ease-in-out grid place-items-center">
+          <div className=" absolute image-overlay group-hover:backdrop-blur-[1px] opacity-0 group-hover:opacity-100 z-10 -inset-[1px] transition-all duration-200 ease-in-out grid place-items-center">
             <Button
               variant={"link"}
               className=" text-foreground cursor-pointer text-xl "
@@ -108,7 +108,7 @@ const ProjectsSection = () => {
             alt="Timely project preview"
             className=" h-[80vh] w-auto"
           />
-          <div className=" absolute image-overlay group-hover:backdrop-blur-[1px] opacity-0 group-hover:opacity-100 z-10 -inset-2 transition-all duration-200 ease-in-out grid place-items-center">
+          <div className=" absolute image-overlay group-hover:backdrop-blur-[1px] opacity-0 group-hover:opacity-100 z-10 -inset-[1px] transition-all duration-200 ease-in-out grid place-items-center">
             <Button
               variant={"link"}
               className=" text-foreground cursor-pointer text-xl "
@@ -138,7 +138,7 @@ const ProjectsSection = () => {
             className=" h-[80vh] w-auto"
           />
 
-          <div className=" absolute image-overlay group-hover:backdrop-blur-[1px] opacity-0 group-hover:opacity-100 z-10 -inset-2 transition-all duration-200 ease-in-out grid place-items-center">
+          <div className=" absolute image-overlay group-hover:backdrop-blur-[1px] opacity-0 group-hover:opacity-100 z-10 -inset-[1px] transition-all duration-200 ease-in-out grid place-items-center">
             <Button
               variant={"link"}
               className=" text-foreground cursor-pointer text-xl "

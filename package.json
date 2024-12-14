@@ -17,6 +17,7 @@
     "clsx": "^2.1.1",
     "krish-portfolio": "file:",
     "lucide-react": "^0.383.0",
+    "motion": "^11.14.4",
     "next": "14.2.3",
     "next-themes": "^0.3.0",
     "react": "^18",

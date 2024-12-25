@@ -3,7 +3,7 @@ const nextConfig = {
   redirects: async () => {
     return [
       {
-        source: "/resume.pdf",
+        source: "/resume",
         destination: "/Krishna_Resume.pdf",
         permanent: true,
       },

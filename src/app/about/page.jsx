@@ -11,6 +11,13 @@ const AboutPage = () => {
     <>
       <Navbar />
       <main className=" max-w-screen-xl mx-auto min-h-screen px-10 ">
+        <Image
+          src={"/under-construction.png"}
+          height={300}
+          width={150}
+          alt="under construction label"
+          className=" fixed right-20 bottom-20 z-20"
+        />
         <section className=" space-y-12">
           <div className=" flex gap-2 items-center">
             <div className=" size-3 rounded-full bg-white  shadow-[0px_0px_20px_0px]"></div>
@@ -53,7 +60,7 @@ const AboutPage = () => {
 
         <div className=" my-20 bg-[#424242]  mx-auto w-[90%]  h-[1px]"></div>
 
-        <section className=" space-y-12">
+        <section className=" space-y-12 mb-24">
           <div className=" flex gap-2 items-center">
             <div className=" size-3 rounded-full bg-white  shadow-[0px_0px_20px_0px]"></div>
             <h2 className=" text-lg text-[#808080]">EXPERIENCE</h2>
@@ -193,8 +200,8 @@ const AboutPage = () => {
           </div>
         </section>
 
-        <div className=" my-20 bg-[#424242] mx-auto w-[90%] h-[1px]"></div>
-        <section className="  space-y-24 mb-24 ">
+        {/* <div className=" my-20 bg-[#424242] mx-auto w-[90%] h-[1px]"></div> */}
+        {/* <section className="  space-y-24 mb-24 ">
           <div className=" flex gap-2 items-center">
             <div className=" size-3 rounded-full bg-white  shadow-[0px_0px_20px_0px]"></div>
             <h2 className=" text-lg text-[#808080]">SKILLS</h2>
@@ -298,7 +305,7 @@ const AboutPage = () => {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
 
       <Footer />

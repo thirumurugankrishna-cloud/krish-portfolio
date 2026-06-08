@@ -5,9 +5,12 @@ import { Button } from "./ui/button";
 const ProjectsSection = () => {
   return (
     <section
-      className=" h-[350vh] w-full flex flex-col items-center justify-between mb-[10vh] gap-[20vh] "
+      className=" h-[350vh] w-full flex flex-col items-center justify-between mb-[10vh] gap-[20vh] relative "
       id="work"
     >
+      <div className=" absolute inset-0 -z-10 pointer-events-none">
+        <div className=" sticky top-0 left-0 right-0 h-screen bg-grid-pattern w-full "></div>
+      </div>
       <div className=" border-y w-full border-white py-6 overflow-clip ">
         <h2 className=" text-[64px] 2xl:text-[96px]  font-medium text-[#F2F2F2]  leading-none text-center tracking-tight whitespace-nowrap projects-heading">
           SELECTED PROJECTS - SELECTED PROJECTS - SELECTED PROJECTS - SELECTED

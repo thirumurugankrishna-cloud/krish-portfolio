@@ -28,7 +28,7 @@ const HeroSection = () => {
         </div>
       </div>
       <p className="animate-bounce ">
-        <Image src={Arrow} className=" w-8 h-12 2xl:w-12 2xl:h-[72px] " />
+        <Image src={Arrow} alt="" className=" w-8 h-12 2xl:w-12 2xl:h-[72px] " />
       </p>
     </section>
   );

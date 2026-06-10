@@ -31,31 +31,33 @@ const Footer = () => {
         </div>
         <div className=" flex gap-8 flex-col">
           <h4 className=" text-sm 2xl:text-base text-[#808080]">PROJECTS</h4>
-          <a
+          <Link
             className=" relative nav-link text-lg 2xl:text-2xl w-fit"
-            target="_blank"
-            href={
-              "https://www.behance.net/gallery/154683703/Integrating-Game-Based-Learning-In-Virtual-Ed"
-            }
-          >
-            Immersive Education
-          </a>
-
-          <a
-            className=" relative nav-link text-lg 2xl:text-2xl w-fit"
-            target="_blank"
-            href={"https://www.clootrack.com/"}
+            href={"/projects/clootrack"}
           >
             Clootrack
-          </a>
+          </Link>
 
-          <a
+          <Link
             className=" relative nav-link text-lg 2xl:text-2xl w-fit"
-            target="_blank"
-            href={"https://www.behance.net/gallery/195201637/ZEE-Design-System"}
+            href={"/projects/zee5-design-system"}
           >
             ZEE5 Design System
-          </a>
+          </Link>
+
+          <Link
+            className=" relative nav-link text-lg 2xl:text-2xl w-fit"
+            href={"/projects/milo"}
+          >
+            Milo
+          </Link>
+
+          <Link
+            className=" relative nav-link text-lg 2xl:text-2xl w-fit"
+            href={"/projects/immersive-education"}
+          >
+            Immersive Education
+          </Link>
         </div>
       </div>
     </footer>

@@ -2,7 +2,6 @@ import Navbar from "@/components/navbar";
 import Image from "next/image";
 
 import ProjectsSection from "@/components/projects";
-import OtherProjectsSection from "@/components/other-projects";
 import Footer from "@/components/footer";
 import HeroSection from "@/components/hero";
 import HobbiesSection from "@/components/hobbies";
@@ -21,7 +20,6 @@ export default function Home() {
         />
         <HeroSection />
         <ProjectsSection />
-        <OtherProjectsSection />
         <HobbiesSection />
       </main>
       <Footer />
